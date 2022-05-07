@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Proyectgrafter</string>
+    <string name="txt_uno">Iniciar</string>
+    <string name="txt_dos">Ingresar</string>
+    <string name="txt_tres">registrarse</string>
+    <string name="txt_cuatro">confirmar</string>
+    <string name="Buton1"> pantalla dos</string>
+    <string name="Buton2"> pantalla uno</string>
+    <string name="Buton3"> pantalla tres</string>
+    <string name="Buton4"> pantalla cuatro</string>
+    <string name="registro">Registro</string>
+    <string name="login">Login</string>
+    <string name="escriba_su_email">Escriba su email…</string>
+    <string name="escriba_su_contrase_a">Escriba su contraseña…</string>
+    <string name="iniciar">INICIAR</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="todo">TODO</string>
+
+</resources>
