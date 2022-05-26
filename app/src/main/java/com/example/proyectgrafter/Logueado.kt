@@ -10,6 +10,9 @@ class Logueado : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_logueado)
 
+
+
+
         var button : Button = findViewById (R.id.Continuar);
 
         button.setOnClickListener()

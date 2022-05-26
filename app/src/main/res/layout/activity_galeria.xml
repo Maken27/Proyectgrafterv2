@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Galeria"
-    android:background="#2196F3">
+    android:background="@drawable/fondo9">
 
 
     <ImageView
@@ -23,31 +23,34 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="194dp"
-        android:layout_height="68dp"
+        android:layout_width="193dp"
+        android:layout_height="44dp"
         android:layout_marginStart="108dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="109dp"
+        android:background="#673AB7"
         android:text="POLCRAFT"
-        android:textColor="@color/black"
-        android:textSize="30dp"
         android:textAlignment="center"
-        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="166dp"
-        android:layout_height="71dp"
+        android:layout_width="164dp"
+        android:layout_height="73dp"
         android:layout_marginStart="125dp"
         android:layout_marginTop="28dp"
         android:layout_marginEnd="120dp"
         android:text="OBRAS"
-        android:textColor="@color/black"
-        android:textSize="30dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,14 +61,15 @@
         android:layout_width="166dp"
         android:layout_height="71dp"
         android:layout_marginStart="122dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="123dp"
         android:text="CONTENIDO EXPCLUSIVO"
-        android:textColor="@color/black"
-        android:textSize="18dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
@@ -77,12 +81,15 @@
         android:layout_marginEnd="123dp"
         android:layout_marginBottom="107dp"
         android:text="CONTACTO"
-        android:textColor="@color/black"
-        android:textSize="20dp"
         android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.093" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

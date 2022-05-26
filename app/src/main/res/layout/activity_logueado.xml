@@ -5,52 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Logueado"
-    android:background="#2196F3"
+    android:background="@drawable/fondo9"
     >
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="243dp"
-        android:layout_height="64dp"
+        android:layout_width="272dp"
+        android:layout_height="52dp"
         android:layout_marginTop="52dp"
-        android:text="@string/bienvenido"
-        android:textColor="@color/black"
-        android:textSize="45sp"
-        android:textStyle="italic"
+        android:background="#673AB7"
+        android:text="BIENVENIDO"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="205dp"
-        android:layout_height="264dp"
-        android:contentDescription="@string/todo"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.519"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.136"
-        tools:ignore="ContentDescription"
-        tools:srcCompat="@tools:sample/avatars" />
-
     <Button
         android:id="@+id/Continuar"
-        android:layout_width="213dp"
+        android:layout_width="wrap_content"
         android:layout_height="89dp"
         android:layout_marginStart="99dp"
         android:layout_marginEnd="99dp"
         android:layout_marginBottom="104dp"
         android:text="Continuar"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toTopOf="@+id/Continuar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.654" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.502"
+        app:srcCompat="@drawable/grafitiperfil1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

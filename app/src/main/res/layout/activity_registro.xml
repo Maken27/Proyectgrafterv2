@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2196F3"
-    tools:context=".Registro">
+    tools:context="Registro"
+    android:background="@drawable/fondo9">
 
 
     <LinearLayout
@@ -15,9 +15,14 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.385"
         tools:context=".MainActivity"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="189dp">
+        tools:ignore="MissingConstraints">
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/email"
@@ -25,6 +30,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
             app:errorEnabled="true"
             app:errorIconDrawable="@null">
 
@@ -41,6 +48,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:hint="Password"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
             app:errorEnabled="true"
             app:errorIconDrawable="@null"
             app:passwordToggleEnabled="true">
@@ -57,7 +66,10 @@
             android:layout_height="81dp"
             android:layout_marginTop="16dp"
             android:text="Registrar"
-            android:textColor="#81D4FA"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
             tools:ignore="TextContrastCheck" />
 
 
@@ -65,21 +77,20 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="383dp"
-        android:layout_height="93dp"
+        android:layout_width="294dp"
+        android:layout_height="89dp"
         android:layout_marginStart="14dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="14dp"
+        android:background="#673AB7"
         android:text="INGRESE LOS DATOS"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#FFFFFF"
         android:textSize="35dp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.718" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var button : Button = findViewById (R.id.Iniciar);
+
+
+        var button : Button = findViewById (R.id.botonIniciar);
 
         button.setOnClickListener()
         {

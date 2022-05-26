@@ -10,15 +10,14 @@ class Registro : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
 
-        var button : Button = findViewById (R.id.Registrar);
+
+        var button : Button = findViewById (R.id.loguear);
 
         button.setOnClickListener()
         {
             val intento1 = Intent (this, Logueado::class.java)
             startActivity(intento1)
         }
-
-
 
     }
 }

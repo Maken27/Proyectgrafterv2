@@ -2,43 +2,60 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/Iniciar"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/grafter"
-    tools:context=".MainActivity">
+    android:background="@drawable/fondo9"
+    tools:context=".MainActivity"
+    tools:ignore="InvalidId"
+    >
 
     <TextView
         android:id="@+id/Grafter"
-        android:layout_width="220dp"
-        android:layout_height="56dp"
-        android:text="GRAFTER"
+        android:layout_width="219dp"
+        android:layout_height="58dp"
+        android:background="#673AB7"
+        android:text="GRAFFTER"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textColor="@color/black"
-        android:textSize="44sp"
-        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.102" />
 
     <Button
-        android:id="@id/Iniciar"
+        android:id="@+id/botonIniciar"
         android:layout_width="252dp"
         android:layout_height="72dp"
         android:layout_marginStart="83dp"
         android:layout_marginEnd="84dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="128dp"
         android:text="@string/txt_uno"
-        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
         android:textSize="35sp"
-        android:textStyle="italic"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="168dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Grafter"
+        app:srcCompat="@drawable/grafter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

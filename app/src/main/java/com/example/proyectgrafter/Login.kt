@@ -10,23 +10,21 @@ class Login : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        var button : Button = findViewById (R.id.loguear);
+        var button : Button = findViewById (R.id.loguear)
 
         button.setOnClickListener()
         {
-            val intento2 = Intent (this, Logueado::class.java)
-            startActivity(intento2)
+            val intent = Intent (this, Logueado::class.java)
+            startActivity(intent)
         }
 
+        var button1 : Button = findViewById (R.id.registrarse)
 
-        var buttonRegistro: Button = findViewById (R.id.loguear2);
-
-        button.setOnClickListener()
+        button1.setOnClickListener()
         {
-            val intento3 = Intent (this, Logueado::class.java)
-            startActivity(intento3)
+            val intent = Intent (this, Registro::class.java)
+            startActivity(intent)
         }
-
 
     }
 }
