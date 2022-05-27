@@ -18,6 +18,14 @@ class Artistas : AppCompatActivity() {
             startActivity(intento1)
         }
 
+        var button1 : Button = findViewById (R.id.obrastres);
+
+        button1.setOnClickListener()
+        {
+            val intento1 = Intent (this, Galeria2::class.java)
+            startActivity(intento1)
+        }
+
 
     }
 }

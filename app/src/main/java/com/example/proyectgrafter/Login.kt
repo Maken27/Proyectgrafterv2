@@ -18,7 +18,7 @@ class Login : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var button1 : Button = findViewById (R.id.registrarse)
+        var button1 : Button = findViewById (R.id.Registrarse)
 
         button1.setOnClickListener()
         {

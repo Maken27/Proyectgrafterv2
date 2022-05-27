@@ -28,27 +28,28 @@
         android:layout_width="wrap_content"
         android:layout_height="89dp"
         android:layout_marginStart="99dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="99dp"
-        android:layout_marginBottom="104dp"
         android:text="Continuar"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30dp"
         android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="185dp"
-        app:layout_constraintBottom_toTopOf="@+id/Continuar"
+        android:layout_width="243dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="63dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.502"
-        app:srcCompat="@drawable/grafitiperfil1" />
+        app:srcCompat="@drawable/grafter" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

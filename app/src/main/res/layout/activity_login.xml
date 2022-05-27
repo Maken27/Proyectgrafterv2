@@ -8,23 +8,6 @@
     android:background="@drawable/fondo9">
 
 
-    <Button
-        android:id="@+id/registrarse"
-        android:layout_width="287dp"
-        android:layout_height="84dp"
-        android:layout_marginBottom="24dp"
-        android:text="registrarse"
-        android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        app:iconTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loguear"
-        app:layout_constraintVertical_bias="0.562"
-        app:rippleColor="#000000" />
-
     <TextView
         android:id="@+id/textView2"
         android:layout_width="248dp"
@@ -84,15 +67,30 @@
         android:id="@+id/loguear"
         android:layout_width="287dp"
         android:layout_height="84dp"
-        android:layout_marginBottom="140dp"
+        android:layout_marginTop="52dp"
         android:text="@string/iniciar"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         app:iconTint="#000000"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:rippleColor="#000000" />
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:layout_width="287dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="16dp"
+        android:text="registrarse"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:iconTint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loguear"
         app:rippleColor="#000000" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
